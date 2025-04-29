@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <!--
 **umnrhyt/umnrhyt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,3 +12,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<div id="toc">
+  <ul align="left" style="list-style: none">
+    <summary>
+      <h1>
+        👋 Hi, my name is Uman Ruhiyat
+      </h1>
+    </summary>
+  </ul>
+</div>
