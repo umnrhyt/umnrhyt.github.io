@@ -28,7 +28,7 @@ Here are some ideas to get you started:
 -->
 ![Bahasa yang Paling Sering Digunakan](https://github-readme-stats.vercel.app/api/top-langs/?username=umnrhyt&layout=compact&theme=radical)
 
-![Kontribusi](https://github-readme-streak-stats.herokuapp.com/?user=umnrhyt&theme=radical)
+
 
 ---
 
