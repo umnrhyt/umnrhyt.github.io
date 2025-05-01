@@ -25,9 +25,9 @@ Here are some ideas to get you started:
 </div>
 
 
-## journey
+# journey
 <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/wide/68061f3fd7a904b5ef42907d?variant=dark" alt="roadmap.sh"/></a>
 
 
-# Social Media 
+## Social Media 
 <a href="">
