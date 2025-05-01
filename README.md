@@ -24,9 +24,23 @@ Here are some ideas to get you started:
   </ul>
 </div>
 
+---
+
+## 📈 GitHub Stats
+
+![umnrhyt's GitHub stats](https://github-readme-stats.vercel.app/api?username=umnrhyt&show_icons=true&theme=radical)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=umnrhyt&layout=compact&theme=radical)](https://github.com/umnrhyt/github-readme-stats)
+
+---
+
 
 # RoadCard
-<a href="https://roadmap.sh"><img src="https://roadmap.sh/card/wide/68061f3fd7a904b5ef42907d?variant=dark" alt="roadmap.sh"/></a>
+[![roadmap.sh](https://roadmap.sh/card/wide/68061f3fd7a904b5ef42907d?variant=dark)](https://roadmap.sh)
+
+---
 
 ## Social Media 
-<a href="">
+
+---
+
