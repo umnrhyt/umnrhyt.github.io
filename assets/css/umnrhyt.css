@@ -24,7 +24,7 @@ html {
   cursor: pointer;
   font-size: 2rem;
 }
-.dark-mode:hover {
+.dark-mode:hover i{
   color: red;
 }
 
