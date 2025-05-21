@@ -8,20 +8,21 @@ window.addEventListener("scroll", () => {
    const pageSections = document.querySelectorAll(".page-section");
    
    pageSections.forEach((pageSection) => {
-      let sectionTop = pageSection.offsetTop -50;
+      let sectionTop = pageSection.offsetTop - 50;
       let sectionHeight = pageSection.offsetHeight;
       let sectionId = pageSection.getAttribute("id");
       
-      //console.log("Section top value :" + sectionTop);
-      //console.log("Section height value :" + sectionHeight);
-
-      if(scrollY > scrollTop && scrollY <= sectionTop + sectionHeight){
+      // console.log("section top value :" + sectionTop);
+      // console.log("section height value :" + sectionHeight);
+      if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
          document.querySelector(".bottom-menu .menu .menu-item a[href*=" + sectionId + "]").classList.add("current");
       }
-      else{document.querySelector(".bottom-menu .menu .menu-item a[href*=" + sectionId + "]").classList.remove("current");
+      else{
+         document.querySelector(".bottom-menu .menu .menu-item a[href*=" + sectionId + "]").classList.remove("current");
       }
-  });
+   });
 });
+
 // Javascript untuk efek menu navigasi saat menggulir.
 
 // Sembunyikan menu navigasi bawah saat mengklik tombol sembunyikan menu.
