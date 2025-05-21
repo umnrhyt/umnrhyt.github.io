@@ -24,7 +24,50 @@ window.addEventListener("scroll", () => {
 });
 
 // Javascript untuk efek menu navigasi saat menggulir.
+const bottomMenu = document.querySelector(".bottom-menu");
+const menuHideBtn = document.querySelector(".menu-hide-btn");
+const menuShowBtn = document.querySelector(".menu-show-btn");
+var menuTimeout;
+
+ window.addEventListener("scroll", () => {
+   bottomMenu.classList.remove("hide");
+   menuShowBtn.classList.remove("show");
+   
+   if(window.scrollY < 10){
+     menuHideBtn.classList.remove("show");
+     
+     function scrollStopped(){
+       bottomMenu.classList.remove("hide");
+      // menuShowBtn.classList.remove("show");
+     }
+     
+     clearTimeout(menuTimeout);
+     menuTimeout = setTimeout(scrollStopped, 2500);
+   }
+   if(window.scrollY > 10){
+     menuHideBtn.classList.add("show");
+     
+     function scrollStopped(){
+       bottomMenu.classList.add("hide");
+       menuShowBtn.classList.add("show");
+     }
+     
+     clearTimeout(menuTimeout);
+     menuTimeout = setTimeout(scrollStopped, 2500);
+   }
+ });
 
 // Sembunyikan menu navigasi bawah saat mengklik tombol sembunyikan menu.
+ menuHideBtn.addEventListener("click", () => {
+   bottomMenu.classList.toggle("hide");
+   menuShowBtn.classList.add("show");
+ });
+
 
 // Menampilkan menu navigasi bawah saat mengklik tombol sembunyikan menu..
+ menuShowBtn.addEventListener("click", () => {
+   bottomMenu.classList.toggle("hide");
+   menuShowBtn.classList.remove("show");
+ });
+
+
