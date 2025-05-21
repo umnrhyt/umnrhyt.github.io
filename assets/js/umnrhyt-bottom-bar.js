@@ -15,7 +15,7 @@ window.addEventListener("scroll", () => {
       //console.log("Section top value :" + sectionTop);
       //console.log("Section height value :" + sectionHeight);
 
-      if(scrollY > scrollTop){
+      if(scrollY > scrollTop && scrollY <= sectionTop + sectionHeight){
          document.querySelector(".bottom-menu .menu .menu-item a[href*=" + sectionId + "]").classList.add("current");
       }
       else{document.querySelector(".bottom-menu .menu .menu-item a[href*=" + sectionId + "]").classList.remove("current");
